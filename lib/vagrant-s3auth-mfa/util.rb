@@ -1,4 +1,4 @@
-require 'aws-sdk'
+require 'aws-sdk-s3'
 require 'log4r'
 require 'net/http'
 require 'uri'

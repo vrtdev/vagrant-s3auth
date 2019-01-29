@@ -1,6 +1,15 @@
+## 1.5.0
+
+**29 January 2019**
+
+Features:
+
+* Removed tests untill fixed
+* Removed unused dependencies
+
 ## 1.4.1
 
-**15 January 2018**
+**15 January 2019**
 
 Features:
 
@@ -8,7 +17,7 @@ Features:
 
 ## 1.4.0
 
-**14 January 2018**
+**14 January 2019**
 
 Features:
 
