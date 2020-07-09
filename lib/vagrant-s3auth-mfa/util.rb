@@ -34,6 +34,7 @@ module VagrantPlugins
         unless ENV['AWS_CONFIG_PROFILE'].nil?
           config = AWSConfig[ENV['AWS_CONFIG_PROFILE']]
           set_credentials_from_profile(config) if ::Aws.config.empty?
+          region = ::Aws.config[:region]
         end
         ::Aws::S3::Client.new(region: region)
       end
